@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.akash.loginregister.Register"
+    android:orientation="vertical"
+    android:background="#009688"
+    android:gravity="center_vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:hint="@string/name"
+        android:id="@+id/etName1"
+        android:layout_marginBottom="15dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:hint="@string/age"
+        android:id="@+id/etAge1"
+
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:hint="@string/username"
+        android:id="@+id/etUsername1"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:hint="@string/password"
+        android:id="@+id/etPassword1"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:padding="15dp"
+        android:background="#263238"
+        android:textColor="#E0E0E0"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btnRegister"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginText"
+        android:textColor="#ccc"
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtLogin"
+        />
+</LinearLayout>
